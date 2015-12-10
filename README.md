@@ -13,9 +13,7 @@ Inspired by [node-prolog-swi](https://github.com/kloni/node-prolog-swi).
 4. Add `SWI_HOME_DIR` environment variable
     * Points to the directory the contains the Prolog executable.
 5. Run `npm install`
-6. Run `npm run configure`
-7. Run `npm run build`
-8. You are ready to use Prolog in Node JS :smile:
+6. You are ready to use Prolog in Node JS :smile:
 
 ### ROADMAP
 - [ ] Achieve parity with node-prolog-swi
