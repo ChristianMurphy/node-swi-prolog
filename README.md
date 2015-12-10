@@ -2,9 +2,9 @@
 
 Embedded Prolog for Node JS.
 
-Designed to support latest Node JS releases and to leverage [NAN]() and [ES2015]() features.
+Designed to support latest Node JS releases and to leverage [NAN](https://github.com/nodejs/nan) and [ES2015](https://nodejs.org/en/docs/es6/) features.
 
-Inspired by [node-prolog-swi](https://github.com/kloni/node-prolog-swi).
+Based off [node-prolog-swi](https://github.com/kloni/node-prolog-swi).
 
 ### Installation
 1. Install [Node JS](https://nodejs.org/en/download/)

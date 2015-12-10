@@ -13,7 +13,6 @@ addons:
             - g++-4.9
 
 before_install:
-    - sudo apt-get install swi-prolog
-    - file /usr/bin/prolog
+    - sudo apt-get install swi-prolog;
+    - export SWI_HOME_DIR=/etc/alternatives;
     - export CXX=/usr/bin/g++-4.9;
-    - export SWI_HOME_DIR=/usr/bin

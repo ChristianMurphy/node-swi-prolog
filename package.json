@@ -6,8 +6,8 @@
   "scripts": {
     "configure": "node-gyp configure",
     "build": "node-gyp build",
-    "pretest": "eslint .",
-    "test": "ava test/*.js "
+    "test": "ava test/*.js ",
+    "posttest": "eslint ."
   },
   "repository": {
     "type": "git",
