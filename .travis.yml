@@ -1,12 +1,18 @@
+sudo: true
 language: node_js
 
 node_js:
     - 4
     - 5
 
-sudo: required
-dist: trusty
+addons:
+    apt:
+        sources:
+            - ubuntu-toolchain-r-test
+        packages:
+            - g++-4.9
 
 before_install:
     - sudo apt-get install swi-prolog
+    - export CXX=/usr/bin/g++-4.9;
     - export SWI_HOME_DIR=/etc/alternatives
