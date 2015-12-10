@@ -1,11 +1,10 @@
 'use strict';
 
 const test = require('ava');
-const prolog = require('../build/Release/prolog');
+const Prolog = require('bindings')('Prolog');
 
-test((t) => {
-    const value = prolog.initialize();
-    const expectedResult = 42;
+test('initialize prolog engine', (t) => {
+    const returnValue = Prolog.initialize('test');
 
-    t.is(value, expectedResult);
+    t.is(typeof returnValue, 'number');
 });

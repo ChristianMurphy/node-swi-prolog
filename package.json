@@ -1,26 +1,34 @@
 {
-  "name": "node-prolog",
+  "name": "node-swi-prolog",
   "version": "0.1.0",
-  "description": "SWI Prolog bindings for Node JS",
+  "description": "Embedded Prolog for Node JS",
   "main": "index.js",
   "scripts": {
+    "configure": "node-gyp configure",
+    "build": "node-gyp build",
     "pretest": "eslint .",
     "test": "ava test/*.js "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChristianMurphy/node-prolog.git"
+    "url": "git+https://github.com/ChristianMurphy/node-swi-prolog.git"
   },
   "keywords": [
-    "prolog"
+    "prolog",
+    "logic",
+    "programming",
+    "expert",
+    "rule",
+    "system"
   ],
   "author": "Christian Murphy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChristianMurphy/node-prolog/issues"
+    "url": "https://github.com/ChristianMurphy/node-swi-prolog/issues"
   },
-  "homepage": "https://github.com/ChristianMurphy/node-prolog#readme",
+  "homepage": "https://github.com/ChristianMurphy/node-swi-prolog#readme",
   "dependencies": {
+    "bindings": "^1.2.1",
     "nan": "^2.1.0",
     "node-gyp": "^3.2.1"
   },
