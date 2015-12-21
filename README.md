@@ -1,5 +1,9 @@
 # Node Prolog
 
+[![Build Status](https://travis-ci.org/ChristianMurphy/node-swi-prolog.svg?branch=master)](https://travis-ci.org/ChristianMurphy/node-swi-prolog)
+[![Dependency Status](https://david-dm.org/ChristianMurphy/node-swi-prolog.svg)](https://david-dm.org/ChristianMurphy/node-swi-prolog)
+[![devDependency Status](https://david-dm.org/ChristianMurphy/node-swi-prolog/dev-status.svg)](https://david-dm.org/ChristianMurphy/node-swi-prolog#info=devDependencies)
+
 Embedded Prolog for Node JS.
 
 Designed to support latest Node JS releases and to leverage [NAN](https://github.com/nodejs/nan) and [ES2015](https://nodejs.org/en/docs/es6/) features.
